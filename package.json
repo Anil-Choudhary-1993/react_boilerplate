@@ -4,6 +4,7 @@
   "description": "React Boilerplate project with webpack babel and other tools.",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Anil-Choudhary-1993/react_boilerplate/issues"
   },
-  "homepage": "https://github.com/Anil-Choudhary-1993/react_boilerplate#readme"
+  "homepage": "https://github.com/Anil-Choudhary-1993/react_boilerplate#readme",
+  "dependencies": {
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  }
 }
