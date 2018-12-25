@@ -1,7 +1,7 @@
 {
   "name": "react-boilerplate",
   "version": "0.1.0",
-  "description": "",
+  "description": "React Boilerplate project with webpack babel and other tools.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,13 @@
     "Project"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anil-Choudhary-1993/react_boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Anil-Choudhary-1993/react_boilerplate/issues"
+  },
+  "homepage": "https://github.com/Anil-Choudhary-1993/react_boilerplate#readme"
 }
