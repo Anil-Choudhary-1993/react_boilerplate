@@ -1,5 +1,7 @@
 import React from 'react'
 
-const warning = () => <span className={'warning'}>Take it easy!</span>
+const Warning = () => <span className={'warning'}>Take it easy!</span>
 
-export default warning
+Warning.displayName = 'Warning'
+
+export default Warning
