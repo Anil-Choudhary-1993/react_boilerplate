@@ -12,6 +12,7 @@ class App extends React.Component {
     const { count } = this.state
     return (
       <div>
+        <img alt="company logo" src="./log/png" />
         <h1>Hello World</h1>
         <h2 className={count > 5 ? 'warning' : null}>Count: {count} </h2>
         <button

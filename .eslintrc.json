@@ -9,10 +9,14 @@
     },
     "settings": {
         "react": {
-          "version": "16.6.1"
+            "version": "16.6.1"
         }
-      },
-    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:jsx-a11y/recommended"
+    ],
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -21,6 +25,7 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "jsx-a11y"
     ]
 }
